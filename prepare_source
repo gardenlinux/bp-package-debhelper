@@ -1,5 +1,4 @@
-# version="14.5"
-commit="4fbbe7cd9a91e8389b16f591b2bbebb9b1346f58"
-version_suffix="gl0~bp2150"
+version="14.5"
+version_suffix="gl0~bp1877"
 
-git_src_commit "$commit" https://salsa.debian.org/debian/debhelper.git 
+git_src --branch "debian/$version" "https://salsa.debian.org/debian/debhelper.git"
